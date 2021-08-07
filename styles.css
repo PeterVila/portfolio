@@ -1,0 +1,48 @@
+html {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Utility Classes */
+.text-align-center {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+/* Utility Clases w/ Flexbox */
+.justify-center {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Semantic Classes */
+.page-header {
+    background-color: darkslategray;
+}
+
+.nav-item {
+    text-decoration: none;
+    /* Removes default underline  */
+}
+
+.nav-item:hover {
+    /* Pseudoclass that applies when hovered by mouse  */
+    color: steelblue;
+}
